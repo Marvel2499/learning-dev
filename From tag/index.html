@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <from action="/action_page.php" method="post">
+
+        <fieldset>
+            <legend> Register Personal Information</legend>
+
+            <label>Username :</label>
+            <input type="text" name="username" id="username" maxlength="20"><br>
+
+            <label>Password :</label>
+            <input type="password" name="password" id="pasword"><br>
+            
+            <lable>First Name :</lable>
+            <input type="text" name="FName" id="FName"><br>
+
+            <lable>Last Name :</lable>
+            <input type="text" name="LName" id="LName"><br>
+
+            <label>Gender :</label>
+            <input type="radio" name="female" id="female" value="female"> Female
+            <input type="radio" name="male" id="male" value="male"> male
+            <input type="radio" name="other" id="other" value="other"> Other <br>
+
+            <label>Skill :</label>
+            <input type="checkbox" name="programming" id="programming" value="programnig" checked>Programming
+            <input type="checkbox" name="tester" id="tester" value="tester">Tester <br>
+
+            <label>Skill :</label>
+            <select name="dropdown" id="dropdown">
+                <option value="java">JAVA</option>
+                <option value="swift">Swift</option>
+            </select><br>
+
+            <label>Birth Day :</label>
+            <input type="date" name="" id=""> <br>
+
+            <label>Resume:</label>
+            <input type="file" name="" id=""> <br><br>
+
+            <input type="reset" value="reset">
+            <input type="submit" value="Submit">
+
+        </fieldset>
+    </from>
+
+    <form action="/action_page.php">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value="John"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value="Doe"><br><br>
+        <input type="submit" value="Submit"> <br>
+    </form>
+<br>
+<form action="/action_page.php">
+        <label>Username :</label>
+        <input type="text" name="username" id="username"><br>
+
+        <label>Password :</label>
+        <input type="password" name="password" id="password"><br>
+
+        <input type="reset" value="reset">
+        <input type="submit" value="submit"> <br>
+    </form>
+
+
+
+
+</body>
+
+</html>

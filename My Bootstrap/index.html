@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<title>Bootstrap</title>
+
+<!-- Bootstrap -->
+<link href="dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+
+<style>
+  .navbar {
+    margin: 0ch;
+    border-radius: 0px;
+
+  }
+</style>
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-inverse" role="navigation">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Codemobile</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+
+    </div><!-- /.navbar-collapse -->
+  </nav>
+
+  <div id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000">
+    <ol class="carousel-indicators">
+      <li data-target="#carousel" data-slide-to="0"></li>
+      <li data-target="#carousel" data-slide-to="1"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="item active">
+        <img alt="First slide" src="images/banner.png">
+      </div>
+      <div class="item">
+        <img alt="Second slide" src="images/banner1.png">
+      </div>
+
+    </div>
+    <a class="left carousel-control" href="#carousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a class="right carousel-control" href="#carousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+  </div>
+
+  <div class="table-responsive" style="padding:0 20%; margin-top:40px;">
+
+    <table class="table table-hover" border="2" bordercolor="#BEBEBE">
+      <thead>
+        <tr>
+          <th>Course</th>
+          <th>Date</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Core Android Programming</td>
+          <td>12 -16 march 2561</td>
+        </tr>
+        <tr>
+          <td>ADVANCED Android Programming</td>
+          <td>22 -16 january 2561</td>
+        </tr>
+        <tr>
+          <td>CORE iOS Programming</td>
+          <td>11 -15 december 2561</td>
+        </tr>
+        <tr>
+          <td>ADVANCED iOS Programming</td>
+          <td>10 -14 march 2561</td>
+        </tr>
+        <tr>
+          <td>Core Xamarin Programming</td>
+          <td>12 -16 november 2561</td>
+        </tr>
+        <tr>
+          <td>ADVANCED Xamarin Programming</td>
+          <td>12 -16 december 2561</td>
+        </tr>
+      </tbody>
+    </table>
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="dist/js/bootstrap.min.js"></script>
+
+
+</body>
+
+</html>
